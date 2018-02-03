@@ -12,9 +12,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+import org.w3c.dom.*;
 
 
 public abstract class Store implements StorageCapable {
@@ -84,8 +82,47 @@ public abstract class Store implements StorageCapable {
         return product;
     }
 
-    public List<Product> loadProducts(){
-        return null;
+    public List<Product> loadProducts(String filename) {
+        try {
+
+            File fXmlFile = new File(filename);
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(fXmlFile);
+
+            //optional, but recommended
+            //read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
+            doc.getDocumentElement().normalize();
+
+
+
+            NodeList nList = doc.getElementsByTagName("Product");
+
+
+
+            for (int temp = 0; temp < nList.getLength(); temp++) {
+
+                Node nNode = nList.item(temp);
+
+
+
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+
+                    Element eElement = (Element) nNode;
+                    if(eElement.getAttribute("type").equals("book")){
+                        products.add(new BookProduct(eElement.getAttribute("name"),Integer.parseInt(eElement.getAttribute("price")),Integer.parseInt(eElement.getAttribute("size"))));
+                    }else if (eElement.getAttribute("type").equals("cd")){
+                        products.add(new CDProduct(Integer.parseInt(eElement.getAttribute("size")),eElement.getAttribute("name"),Integer.parseInt(eElement.getAttribute("price"))));
+                    }
+
+
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return products;
+
     }
 
     public void store(){
