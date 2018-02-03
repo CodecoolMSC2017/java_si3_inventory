@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0ae40ed4-0fe1-4cac-a78d-b9bcdf9cbf48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Products.xml" afterPath="$PROJECT_DIR$/Products.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/Store.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/Store.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,18 +19,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Products.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Products.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Products.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+              <caret line="0" column="472" lean-forward="false" selection-start-line="0" selection-start-column="472" selection-end-line="0" selection-end-column="472" />
               <folding />
             </state>
           </provider>
@@ -39,8 +39,8 @@
       <file leaf-file-name="Store.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#saveToXml#0;class#Store#0" expanded="false" />
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StoreManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+              <caret line="25" column="82" lean-forward="false" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -146,13 +146,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/ManageXML.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/Product.java" />
         <option value="$PROJECT_DIR$/Products.fxml" />
-        <option value="$PROJECT_DIR$/Products.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/BookProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/CDProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/PersistentStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codecool/Store.java" />
+        <option value="$PROJECT_DIR$/Products.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codecool/Store.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java" />
       </list>
     </option>
   </component>
@@ -411,6 +411,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -420,7 +421,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32661718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40615058" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -539,21 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/PersistentStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -594,10 +580,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="472" lean-forward="false" selection-start-line="0" selection-start-column="472" selection-end-line="0" selection-end-column="472" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#saveToXml#0;class#Store#0" expanded="false" />
@@ -610,17 +604,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Products.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="65" lean-forward="false" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="25" column="82" lean-forward="false" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

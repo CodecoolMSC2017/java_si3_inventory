@@ -23,7 +23,7 @@ public class StoreManager{
     public String listProducts(){
         String productList = "";
         for(int i=0;i<storage.getAllProduct().size();i++){
-            productList += storage.getAllProduct().get(i).getName()+",";
+            productList +="name: " + storage.getAllProduct().get(i).getName()+ "\nprice:"+storage.getAllProduct().get(i).getPrice()+"\n\n";
         }
 
         return productList;
