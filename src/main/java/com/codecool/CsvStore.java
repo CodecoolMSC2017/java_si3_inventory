@@ -1,5 +1,4 @@
 package com.codecool;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,7 +13,7 @@ public abstract class CsvStore implements StorageCapable {
     private List<List<String>> products = new ArrayList<>();
 
 
-    protected void loadFromCsv(String csvFile,String splitter)throws FileNotFoundException, IOException{
+    protected void loadFromCsv(String csvFile){
 
         BufferedReader br = null;
         String line;
@@ -26,20 +25,12 @@ public abstract class CsvStore implements StorageCapable {
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
-                products.add(Arrays.asList(line.split(splitter))) ;
+                products.add(Arrays.asList(line.split(";"))) ;
 
 
                 }
-            for (List<String> product : products) {
-                for (String s : product){
-                    System.out.print(s+" ");
-                }
-                System.out.println();
 
-            }
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -53,7 +44,7 @@ public abstract class CsvStore implements StorageCapable {
         }
     }
 
-    private void storeProduct(Product product){
+    protected void storeProduct(Product product){
         List<String> tmpList = new ArrayList<>();
 
         if(product instanceof CDProduct){
@@ -75,22 +66,8 @@ public abstract class CsvStore implements StorageCapable {
 
     }
 
-    protected Product createProduct(String type, String name, int price, int size){
-        Product product;
-        if(type.equals("Book")){
-            product = new BookProduct(name,price,size);
-            storeBookProduct(name,price,size);
-
-        }else{
-            product = new CDProduct(size,name,price);
-            storeCDProduct(name,price,size);
-
-        }
-        return product;
-    }
-
     public void saveToCsv(String filename) {
-       try{loadFromCsv(filename,";");}catch (IOException e){e.printStackTrace();}
+       loadFromCsv(filename);
        try{
            FileWriter fw = new FileWriter(filename);
            for(List<String> ls : products){
@@ -112,14 +89,16 @@ public abstract class CsvStore implements StorageCapable {
 
     }
 
-    public void store(){
-
-
-
-    }
-
     public List<Product> getAllProduct(){
-        return null;
+        List<Product> tmpList = new ArrayList<>();
+        for(List<String> ls : products){
+            if(ls.get(3).equals("book")){
+                tmpList.add(new BookProduct(ls.get(0),Integer.parseInt(ls.get(1)),Integer.parseInt(ls.get(2))));
+            }else{
+                tmpList.add(new CDProduct(Integer.parseInt(ls.get(1)),ls.get(0),Integer.parseInt(ls.get(2))));
+            }
+        }
+        return tmpList;
     }
 
     public void storeCDProduct(String name, int price, int tracks){
