@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae40ed4-0fe1-4cac-a78d-b9bcdf9cbf48" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testCSV.CSV" />
-      <change beforePath="$PROJECT_DIR$/.idea/java_si3_inventory.iml" afterPath="$PROJECT_DIR$/.idea/java_si3_inventory.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/products.csv" afterPath="$PROJECT_DIR$/products.csv" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/CsvStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/CsvStore.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/PersistentStore.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/PersistentStore.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/Store.java" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/Store.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvStore.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CsvStore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/CsvStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="94" column="41" lean-forward="true" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
+            <state relative-caret-position="494">
+              <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#loadFromCsv#0;class#CsvStore#0" expanded="false" />
@@ -63,11 +57,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvStoreTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CDProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/CDProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsvStoreTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="322">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -152,9 +166,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/PersistentStore.java" />
         <option value="$PROJECT_DIR$/products.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codecool/CsvStore.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codecool/testCSV.CSV" />
         <option value="$PROJECT_DIR$/testCSV.CSV" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codecool/CsvStore.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java" />
       </list>
     </option>
@@ -540,38 +554,45 @@
       <option name="project" value="LOCAL" />
       <updated>1518522343602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created CsvStoreTest to test its methods.">
+      <created>1518529399241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518529399241</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="CsvStoreTest - 2018.02.13 at 14h 42m 20s.xml">
       <configuration name="CsvStoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvStoreTest_getAllProduct - 2018.02.13 at 14h 32m 25s.xml">
-      <configuration name="CsvStoreTest.getAllProduct" configurationId="JUnit" />
+    <history-entry file="CsvStoreTest - 2018.02.13 at 14h 53m 18s.xml">
+      <configuration name="CsvStoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvStoreTest_loadFromCsv - 2018.02.13 at 14h 35m 37s.xml">
-      <configuration name="CsvStoreTest.loadFromCsv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvStoreTest_loadFromCsv - 2018.02.13 at 14h 36m 20s.xml">
-      <configuration name="CsvStoreTest.loadFromCsv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvStoreTest_loadFromCsv - 2018.02.13 at 14h 36m 33s.xml">
-      <configuration name="CsvStoreTest.loadFromCsv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvStoreTest_loadFromCsv - 2018.02.13 at 14h 36m 51s.xml">
-      <configuration name="CsvStoreTest.loadFromCsv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvStoreTest_loadFromCsv - 2018.02.13 at 14h 37m 26s.xml">
-      <configuration name="CsvStoreTest.loadFromCsv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvStoreTest_loadFromCsv - 2018.02.13 at 14h 37m 53s.xml">
-      <configuration name="CsvStoreTest.loadFromCsv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvStoreTest_storeBookProduct - 2018.02.13 at 14h 42m 13s.xml">
+    <history-entry file="CsvStoreTest_storeBookProduct - 2018.02.13 at 14h 53m 13s.xml">
       <configuration name="CsvStoreTest.storeBookProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 41m 05s.xml">
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 47m 33s.xml">
+      <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 48m 26s.xml">
+      <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 49m 16s.xml">
+      <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 50m 07s.xml">
+      <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 50m 48s.xml">
+      <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 51m 14s.xml">
+      <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvStoreTest_storeCDProduct - 2018.02.13 at 14h 52m 28s.xml">
       <configuration name="CsvStoreTest.storeCDProduct" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -589,7 +610,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3801105" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17458564" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3314917" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,6 +631,36 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06256628" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3801105" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21767956" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20628998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06256628" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -619,25 +670,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented loading into, and reading from CSV files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented loading into, and reading from CSV files" />
+    <MESSAGE value="Created CsvStoreTest to test its methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created CsvStoreTest to test its methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/BookProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#131#132#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/CDProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1040,17 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/CDProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#96#97#0" expanded="false" />
-            <element signature="e#130#131#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/StoreManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1130,24 +1161,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/CDProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="69">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/CsvStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="94" column="41" lean-forward="true" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
+        <state relative-caret-position="494">
+          <caret line="104" column="52" lean-forward="false" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#loadFromCsv#0;class#CsvStore#0" expanded="false" />
             <element signature="method#storeProduct#0;class#CsvStore#0" expanded="false" />
             <element signature="method#saveToCsv#0;class#CsvStore#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/CsvStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

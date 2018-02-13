@@ -29,6 +29,8 @@ class CsvStoreTest {
         PersistentStore pStore = new PersistentStore();
         pStore.storeCDProduct("Heart shaped box",35,20);
         assertTrue(pStore.getAllProduct().get(pStore.getAllProduct().size()-1) instanceof CDProduct);
+        assertTrue(pStore.getAllProduct().get(pStore.getAllProduct().size()-1).getPrice()==35);
+        assertTrue(pStore.getAllProduct().get(pStore.getAllProduct().size()-1).getName().equals("Heart shaped box"));
     }
 
     @Test
@@ -36,6 +38,8 @@ class CsvStoreTest {
         PersistentStore pStore = new PersistentStore();
         pStore.storeBookProduct("Daughter of Smoke and Bones",35,320);
         assertTrue(pStore.getAllProduct().get(pStore.getAllProduct().size()-1) instanceof BookProduct);
+        assertTrue(pStore.getAllProduct().get(pStore.getAllProduct().size()-1).getName().equals("Daughter of Smoke and Bones"));
+        assertTrue(pStore.getAllProduct().get(pStore.getAllProduct().size()-1).getPrice()==35);
     }
 
     @Test

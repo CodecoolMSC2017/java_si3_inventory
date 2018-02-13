@@ -102,7 +102,7 @@ public abstract class CsvStore implements StorageCapable {
     }
 
     public void storeCDProduct(String name, int price, int tracks){
-        Product cd = new CDProduct(tracks,name,price);
+        Product cd = new CDProduct(price,name,tracks);
         storeProduct(cd);
     }
 
